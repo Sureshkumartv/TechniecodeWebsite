@@ -1,0 +1,188 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+body{font-family:'Roboto Condensed', sans-serif; font-weight:300;} 
+.header{background-color:#f9f9f9; padding:8px 0;}
+.header-extras {
+    float: right;
+	margin-top:15px;
+}
+
+.header-extras li {
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #EEE;
+	    float: left;
+    height: 40px;
+    overflow: hidden;
+    list-style: none;
+}
+.header-extras li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+.header-extras li i {
+    margin-top: 0 !important;
+    font-size: 36px !important;
+    float: left;
+	color:#545353;
+}
+.header-extras li .he-text {
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	float: left;
+}
+.header-extras li .he-text span {
+    font-weight: 600;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+	display: block;
+	color: #01adcd;
+}
+a {
+    text-decoration: none!important;
+    color: #01adcd;
+}
+.banner{ text-align:center; padding:80px 0; position:relative; background-image:url(../images/banner.jpg); background-size:cover; background-position:center -220px;}
+.banner:after{background-color:rgba(0, 0, 0, 0.7); position:absolute; width:100%; height:100%; display:block; content:'';  top:0; z-index:1;}
+.banner h1{font-size:42px; text-transform:uppercase; font-weight:500; color:#fff; z-index:9; position:relative;}
+.banner h1 span{display:block;}
+.banner h1 span u{color:#fff000; text-decoration:none; font-size:50px;}
+.banner p{font-size:20px; color:#dedddd; z-index:9; position:relative;}
+.banner form{z-index:9; position:relative; margin-top:40px;}
+.input-group .form-control{border:none; height:40px; }
+.btn-default{ background-color:#ff4800; border-color:#ff4800; color:#fff; text-transform:uppercase; height:40px; padding:0 40px;}
+.client-section{ background-color:#e8e8e8; padding:20px 0;}
+.client-section h1, footer h2{font-size:28px; display:inline; position:relative;}
+
+.client-section h1:after, footer h2:after{    content: '';
+/*    background-image: url(../images/lines.png);*/
+    position: absolute;
+    height: 10px; bottom: -20px;
+    width: 40%; left:0; background-position:right;}
+footer{background-color:#3f3f3f; color:#fff; padding:40px 0; line-height:28px;}
+footer h2{font-size:24px;}
+footer ul{margin:0; padding:0; list-style:none;}
+footer ul a{color:#fff;}
+.single-footer-widget .sec-title {
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+.single-footer-widget .sec-title h2 {
+    color: #ffffff;
+}
+.sec-title span.decor {
+    border: 1px solid #ff4800;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+.sec-title.text-left span.decor {
+    margin-left: 71px;
+}
+.single-footer-widget .sec-title span.decor {
+    border: 1px solid #fff;
+}
+.sec-title span.decor::before {
+    background: #ff4800 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: -71px;
+    position: absolute;
+    top: 4px;
+    width: 60px;
+}
+.single-footer-widget .sec-title span.decor::before {
+    background: #fff none repeat scroll 0 0;
+}
+.sec-title span.decor::after {
+    background: #ff4800 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    right: -71px;
+    position: absolute;
+    top: 4px;
+    width: 60px;
+}
+.single-footer-widget .service-list li {
+    line-height: 40px;
+    color: #282828;
+    transition: all 700ms ease 0s;
+	display:inline-block;
+	    
+}
+
+.single-footer-widget .sec-title span.decor::after {
+    background: #fff none repeat scroll 0 0;
+}
+.single-footer-widget .service-list li a {
+    color: #b9b9b9;
+    transition: color .3s ease;
+}
+.copyrights{ background-color:#2d2d2d; padding: 10px 0px;
+    color: #fff;
+ }
+.subscribe-box {
+    position: relative;
+    margin: 10px 15%;
+    top: 20px;
+}
+.subscribe-box .form-control {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #1682b1;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #4c5462;
+    font-size: 18px;
+    height: 45px;
+    padding: 0 20px 0 20px;
+    font-size: 12px;
+}
+.form-control {
+    width: 48%;
+    display: inline-block;
+    font-size: 14px;
+}
+.subscribe-box button {
+    background: #ff5400;
+    border: medium none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media screen and (max-width:768px){
+.banner{ padding:30px 0;}
+.banner h1{ font-size:30px;}
+}
+@media screen and (max-width:640px){
+.header{text-align:center;}
+.header .img-responsive{ margin:0 auto; margin-bottom:20px;}
+.header-extras{margin:0 auto; float:none;}
+.he-text{text-align:left;}
+.banner h1{ font-size:28px;}
+.banner h1 span u{font-size:36px;}
+.input-group .form-control{width:100%; margin-bottom:10px;  }
+.input-group{width:100%;}
+.input-group .form-control, .input-group-addon, .input-group-btn{display:inline-table; }
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle){border-radius:4px;}
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child){border-radius:4px;}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle{border-radius:4px;}
+.btn-default{width:100%;}
+}
+@media screen and (max-width:360px){
+.header-extras li{ margin:0; padding:0; border:none; border-bottom: 1px solid #eee; margin-bottom:5px; width:100%;}
+}

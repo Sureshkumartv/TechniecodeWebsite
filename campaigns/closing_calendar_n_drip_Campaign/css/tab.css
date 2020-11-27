@@ -1,0 +1,132 @@
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.tab .nav-tabs{
+    border: none;
+    margin: 0;
+	width: 100% !important;
+margin-top: 15px;
+margin-left:10px;
+}
+.tab .nav-tabs li a{
+    padding: 10px 20px;
+    margin: 0 10px -1px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #e6e5e1;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a{
+   background: #079fc9;
+color: #fff;
+    
+    border-bottom-color: transparent;
+}
+.tab .nav-tabs li a:before{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+.tab .nav-tabs li.active a:before,
+.tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
+.tab .tab-content{
+   padding: 0px 10px;
+    font-size: 17px;
+	
+    color: #6f6f6f;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+@media only screen and (max-width: 479px){
+    .tab .nav-tabs{ border: none; }
+    .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .tab .nav-tabs li a{
+        margin: 0;
+        border-bottom: 2px solid transparent;
+    }
+    .tab .nav-tabs li a:before{
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #079fc9;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form_section h2 {
+    color: #282828;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 15px;
+}
+.form_section input {
+    background: none;
+    border-color: #282828;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    font-size: 17px;
+    height: 54px;
+    line-height: 54px;
+    margin: 10px 0px;
+    box-shadow: none;
+    border-radius: 0px;
+	width:90%;
+	color:#ee5003 !important;
+}
+.form_section button {
+    background: #ee5003;
+    border-width: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    height: 54px;
+    line-height: 57px;
+    margin: 20px 0 0 0;
+    padding: 0 40px !important;
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+ color: #fff;
+}

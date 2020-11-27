@@ -1,0 +1,2 @@
+[13-Jun-2020 12:40:16 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/n8a6hk93twp4/public_html/siva/php/phpMailer/PHPMailerAutoload.php on line 45
+[13-Jun-2020 12:40:16 UTC] PHP Notice:  Undefined variable: resume in /home/n8a6hk93twp4/public_html/siva/php/applyjobmail.php on line 28

@@ -1,0 +1,258 @@
+/*!
+ * Techniecode Styles v4.2.3 (http://techniecode.com)
+ * Copyright 2017 Techniecode, Inc.
+ * Theme Name: Techniecode v16
+ * Theme URI: http://techniecode.com/
+ * Description: The Theme for Techniecode Custom Application
+ * Author: Praveen Kumar Ommi
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+	font-family: 'Roboto', sans-serif; 
+	font-size:18px; 
+	font-weight:300;
+}
+.fl_right {
+	float:right;
+}
+.banner {
+	width:100%;
+	background-color:#2c3e50;
+}
+.logo img {
+	background: #ecf0f1;
+    padding: 10px;
+}
+.techniecode-mail {
+    font-size: 22px;
+    background-image: url(../images/mail.png);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+	color:#fff;
+}
+.techniecode-number {
+    font-size: 22px;
+    background-image: url(../images/phone.png);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+	color:#fff;
+	
+}
+.form_section h2 {
+	color: #ecf0f1;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 15px;
+	}
+.form_section input {
+	background: none;
+    border-color: #a8a8a8;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    font-size: 17px;
+    height: 54px;
+    line-height: 54px;
+    margin: 10px 0px;
+	    box-shadow: none;
+    border-radius: 0px;
+}
+.form_section button {
+	    background: #e74c3c;
+    border-width: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    height: 54px;
+    line-height: 57px;
+    margin: 20px 0 0 0;
+    padding: 0 40px !important;
+    text-transform: uppercase;
+}
+.pink_box {
+	background-color:#e74c3c;
+}
+.pink_box .col-md-8 {background-color:#fff;}
+.aside h2{
+	color: #ecf0f1;
+    font-size: 65px;
+}
+.aside h3{
+	color: #ecf0f1;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 10px;
+	line-height: 40px;
+}
+.clients {
+	background-color:#f1f1f1;
+}.clients_bg {
+padding: 25px 0px;
+    background: #f1f1f1 !important;
+	}
+	.techniecode-mailid {
+    font-size: 22px;
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+	color:#282828;
+}
+.techniecode-phoneno {
+    font-size: 22px;
+    background-image: url(../images/phone.png);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+	color:#282828;
+}
+.techniecode-web {
+    font-size: 22px;
+    background-image: url(../images/web.png);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+	color:#282828;
+}
+.social-icons  {
+margin-bottom: 25px; 
+}
+.social-icons a  {
+	color: #fff;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+	margin:10px;
+}
+.facebook {
+    background: #3c599b;
+	padding: 10px 15px;
+}
+.twitter {
+    background: #4ebeed;
+	padding: 10px;
+}
+.linkedin {
+    background: #007bb5;
+	padding: 10px;
+}
+.google {
+    background: #d93725;
+	padding: 10px;
+}
+.footer {
+	background-color:#282828;
+	text-align:center;
+	color:#f1f1f1;
+	    padding: 5px;
+    font-size: 13px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+	vertical-align:middle;
+    font-size: 21px;
+    border-top: 1px solid #fff;
+}
+.single-footer-widget .sec-title {
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+.single-footer-widget .sec-title h2 {
+    color: #ffffff;
+}
+.sec-title span.decor {
+    border: 1px solid #ff4800;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+.sec-title.text-left span.decor {
+    margin-left: 71px;
+}
+.single-footer-widget .sec-title span.decor {
+    border: 1px solid #fff;
+}
+.sec-title span.decor::before {
+    background: #ff4800 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: -71px;
+    position: absolute;
+    top: 4px;
+    width: 60px;
+}
+.single-footer-widget .sec-title span.decor::before {
+    background: #fff none repeat scroll 0 0;
+}
+.sec-title span.decor::after {
+    background: #ff4800 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    right: -71px;
+    position: absolute;
+    top: 4px;
+    width: 60px;
+}
+.single-footer-widget .service-list li {
+    line-height: 40px;
+    color: #282828;
+    transition: all 700ms ease 0s;
+	display:inline-block;
+	    
+}
+
+.single-footer-widget .sec-title span.decor::after {
+    background: #fff none repeat scroll 0 0;
+}
+.single-footer-widget .service-list li a {
+    color: #b9b9b9;
+    transition: color .3s ease;
+}
+.copyrights{ background-color:#2d2d2d; padding: 10px 0px; color:#fff;     font-size: 14px; }
+@media screen and (max-width: 980px)
+{
+.clients_bg {
+    padding: 25px 0px;
+}
+.fl_right {
+    float: left;
+}
+.margin-auto {
+	margin:0 auto;
+}
+.techniecode-mail  {
+    font-size: 16px;
+	margin-top:10px;
+	margin:0 auto;
+	    display: inline;
+	}
+.techniecode-number  {
+    font-size: 16px;
+	margin-top:10px;
+	margin:0 auto;
+	display: inline;
+	}
+.txt-ctr {
+		text-align:center;
+		    padding: 5px;
+	}
+
+.table tr td:first-child{width: 50px;
+    display: block;} 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {    font-size: 16px;}
+.logo .img-responsive{margin: 0 auto;} 
+.table-responsive {
+    border: none;
+}
+}
